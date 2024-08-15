@@ -51,7 +51,7 @@ h1 {
   background-color: rgb(255, 232, 186);
   padding-bottom: 5rem;
 }
-.content2 ul {
+ul {
   list-style: none;
 }
 h2 {
@@ -79,12 +79,27 @@ p {
   background-color: rgb(255, 232, 186);
 }
 .content3-1 img {
-  width: 300px;
-  height: 500px;
-  background-position: center;
-  background-size: cover;
+  width: 600px;
+  height: 700px;
+  margin-left: 13rem;
+  background-image: cover;
+  margin-bottom: 5rem;
 }
 .content3-2 img {
-  width: 250px;
-  height: 300px;
+  width: 400px;
+  height: 500px;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.content3-2 {
+  text-align: center;
+}
+.content3-2 ul li a {
+  color: rgb(6, 0, 0);
+  text-decoration: none;
+  font-size: 20px;
+}
+.content3-2 p {
+  margin-left: 2.5rem;
 }
