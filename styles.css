@@ -103,3 +103,15 @@ p {
 .content3-2 p {
   margin-left: 2.5rem;
 }
+.content4 {
+  display: grid;
+  grid-template-columns: 4fr 4fr 4fr;
+  background-color: rgb(230, 216, 249);
+  gap: 4rem;
+}
+.content4 img {
+  width: 300px;
+  height: 400px;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
