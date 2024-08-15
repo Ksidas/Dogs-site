@@ -73,15 +73,16 @@ p {
   font-size: 25px;
   font-weight: 200;
 }
-.contnt3 {
+.content3 {
   display: grid;
   grid-template-columns: 6fr 6fr;
   background-color: rgb(255, 232, 186);
-  position: relative;
 }
 .content3-1 img {
   width: 300px;
   height: 500px;
+  background-position: center;
+  background-size: cover;
 }
 .content3-2 img {
   width: 250px;
