@@ -125,4 +125,9 @@ p {
   cursor: pointer;
   margin-top: 10px;
   border-radius: 10px;
+  font-size: 20px;
+}
+button:hover {
+  background-color: #080000;
+  color: #fff;
 }
