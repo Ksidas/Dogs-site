@@ -44,3 +44,32 @@ nav a {
 h1 {
   font-size: 8rem;
 }
+
+.content2 {
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+  background-color: rgb(255, 232, 186);
+  padding-bottom: 5rem;
+}
+.content2 ul {
+  list-style: none;
+}
+h2 {
+  font-size: 75px;
+  padding-left: 2rem;
+  padding-right: 5rem;
+  font-weight: 200;
+}
+p {
+  padding-left: 2rem;
+  padding-right: 5rem;
+  font-size: 25px;
+  font-weight: 200;
+}
+
+.content2 ul li a {
+  color: black;
+  padding-left: 2rem;
+  font-size: 25px;
+  font-weight: 200;
+}
