@@ -180,9 +180,7 @@ h3 a {
   color: rgb(6, 0, 0);
   text-decoration-line: underline;
 }
-p {
-  padding-bottom: 2rem;
-}
+
 footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
