@@ -184,9 +184,9 @@ p {
   padding-bottom: 2rem;
 }
 footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   background-color: rgb(255, 232, 186);
-  text-align: center;
-  padding: 20px;
 }
 
 footer .footer-content {
@@ -198,5 +198,5 @@ footer .footer-content {
 
 footer form {
   display: flex;
-  gap: 10px;
+  gap: 5px;
 }
