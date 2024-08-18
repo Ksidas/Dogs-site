@@ -230,8 +230,8 @@ form button {
   flex-wrap: wrap;
   margin-bottom: 20px;
   flex-direction: row;
+  gap: 2rem;
 }
 .footer-content-1 ul li a {
   padding-left: 6rem;
-  margin-top: 10px;
 }
