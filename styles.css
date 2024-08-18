@@ -185,16 +185,53 @@ footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   background-color: rgb(255, 232, 186);
+  height: 30vh;
 }
 
-footer .footer-content {
-  justify-content: space-between;
+.footer-content {
   align-items: center;
+  display: flex;
   flex-wrap: wrap;
   margin-bottom: 20px;
+  flex-direction: row;
 }
 
-footer form {
+form {
   display: flex;
   gap: 5px;
+  align-items: center;
+}
+input {
+  width: 50%;
+  height: 60px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+form button {
+  background-color: transparent;
+  color: rgb(8, 0, 0);
+  border: 1px solid rgb(0, 0, 0);
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.footer-content ul li a {
+  color: black;
+  font-size: 20px;
+  padding-left: 6rem;
+}
+.footer-content-1 {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  flex-direction: row;
+}
+.footer-content-1 ul li a {
+  padding-left: 6rem;
+  margin-top: 10px;
 }
