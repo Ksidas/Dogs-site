@@ -296,5 +296,12 @@ form button {
     top: 320px;
     left: 0;
     width: 100%;
-  } */
+
+    } */
+  h3 {
+    font-size: 70px;
+  }
+  .content-wrapper {
+    display: none;
+  }
 }
