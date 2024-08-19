@@ -43,7 +43,7 @@ nav a {
   /* filter: grayscale(70%); */
 }
 h1 {
-  font-size: 8rem;
+  font-size: 5rem;
 }
 
 .content2 {
@@ -235,4 +235,47 @@ form button {
 }
 .footer-content-1 ul li a {
   padding-left: 6rem;
+}
+.burger-btn-wraper {
+  display: none;
+  width: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+    display: none;
+  }
+  header nav ul {
+    display: none;
+  }
+  .burger-btn-wraper {
+    display: block;
+    position: absolute;
+    left: 10px;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+  .cart {
+    position: absolute;
+    right: 10px;
+  }
+  h1 {
+    font-weight: 100;
+  }
+  .content2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .content3-1 img {
+    max-width: 100%;
+    height: auto;
+  }
+  .content3-2 img {
+    max-width: 100%;
+    height: auto;
+  }
 }
