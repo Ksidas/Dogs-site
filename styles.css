@@ -304,4 +304,18 @@ form button {
   .content-wrapper {
     display: none;
   }
+  .content4-2 {
+    display: none;
+  }
+  .content4-3 {
+    display: none;
+  }
+  .content4 {
+    display: block;
+  }
+  .content4-1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
 }
