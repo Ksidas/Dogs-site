@@ -270,12 +270,31 @@ form button {
     display: flex;
     flex-direction: column;
   }
-  .content3-1 img {
-    max-width: 100%;
-    height: auto;
+
+  .content3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
   }
-  .content3-2 img {
-    max-width: 100%;
-    height: auto;
+  /* .content3 {
+    position: relative;
   }
+  .content3-1 img .content3-2 img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .content3-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  .content3-2 {
+    position: absolute;
+    top: 320px;
+    left: 0;
+    width: 100%;
+  } */
 }
